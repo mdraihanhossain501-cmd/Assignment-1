@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -9,15 +10,15 @@
     margin: auto;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
 }
+
 /* navigation bar */
 .nav-parent {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    border: 3px solid red;
     padding: 20px 60px;
 }
 
@@ -33,10 +34,69 @@ ul li a{
 .btn-1 {
     background-color: rgb(59, 59, 236);
     color: white;
-    padding: 15px 10px;
+    padding: 10px 20px;
     border-radius: 12px;
     border: none;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 600;
+}
 
+/* banner */
+
+.banner {
+    background-image: url("../assets/banner.jpg");
+    width: auto;
+    height: 700px;
+    background-size: cover;
+
+}
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .55);
+    border: 1px solid;
+}
+
+.banner-content {
+    max-width: 850px;
+    text-align: center;
+    color: #fff;
+    /* padding-top: 90px; */
+    /* border: 3px solid rgb(43, 12, 181); */
+    margin: auto;
+    margin-top: 90px;
+}
+ .paragraph{
+    margin-top: 30px;
+ }
+
+.banner-content h1 {
+    font-size: 80px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -3.2px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    font-weight: 250;
+}
+
+.position-of-btn {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.btn-2 {
+    font-size: 20px;
+    background-color: rgb(59, 59, 236);
+    color: white;
+    padding: 18px 50px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
 }
