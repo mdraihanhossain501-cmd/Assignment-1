@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul li a{
+    text-decoration: none;
+}
+/* navigation bar */
+.nav-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid red;
+    padding: 20px 60px;
+}
+
+.nav-child ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.btn-1 {
+    background-color: rgb(59, 59, 236);
+    color: white;
+    padding: 15px 10px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+}
