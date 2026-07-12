@@ -170,3 +170,166 @@ ul li a {
     font-size: 15px;
     line-height: 24px;
 }
+
+/* subscription plan  */
+
+.sub-container{
+    max-width:1200px;
+    margin:80px auto;
+    padding:0 20px;
+}
+
+.parent-box{
+    text-align:center;
+}
+
+.title{
+    font-size:52px;
+    font-weight:700;
+    color:black;
+}
+
+.date{
+    margin-top:12px;
+    color:#6b7280;
+    font-size:14px;
+}
+
+.box{
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.standard,
+.pro{
+    width:auto;
+    height: auto;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:32px;
+    text-align:left;
+    background:#F8F9FB;
+}
+
+.pro{
+    background:#0D1B2A;
+    color:white;
+}
+
+.team{
+    width:auto;
+    height: auto;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:32px;
+    text-align:left;
+    background: #E5E7EB;
+    
+}
+
+.standard p,
+.pro p,
+.team p{
+    font-size:12px;
+    font-weight:700;
+    color:#747c8b;
+    letter-spacing:1px;
+    margin-bottom:10px;
+}
+
+.pro p{
+    color:#60a5fa;
+}
+
+.standard h2,
+.pro h2,
+.team h2{
+    font-size:48px;
+    font-weight:700;
+}
+
+.standard span,
+.team span{
+    color:#6b7280;
+    font-size:14px;
+}
+
+.pro span{
+    color:#cbd5e1;
+    font-size:14px;
+}
+
+.standard hr,
+.pro hr,
+.team hr{
+    margin:25px 0;
+    border:none;
+    border-top:1px solid #e5e7eb;
+}
+
+.pro hr{
+    border-top:1px solid rgb(88, 88, 88);
+}
+
+.team hr{
+    border-top:1px solid #ded5d5;
+}
+
+.standard ul,
+.pro ul,
+.team ul{
+    list-style:none;
+    padding:0;
+    margin-bottom:30px;
+}
+
+.standard ul li,
+.pro ul li,
+.team ul li{
+    margin-bottom:15px;
+    font-size:15px;
+    line-height:24px;
+    font-weight: 200;
+}
+
+.standard ul li::before,
+.pro ul li::before,
+.team ul li::before{
+    content:"•";
+    color:#2563EB;
+    margin-right:10px;
+}
+
+.btn-3,
+.btn-5{
+    width:100%;
+    padding:14px;
+    border:1px solid #D1D5DB;
+    background:#fff;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.btn-4{
+    width:100%;
+    padding:14px;
+    border:none;
+    background:#2563EB;
+    color:#fff;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+.btn-3:hover,
+.btn-5:hover{
+    background:#F3F4F6;
+}
+
+.btn-4:hover{
+    background:#1D4ED8;
+}
