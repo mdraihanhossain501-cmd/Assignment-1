@@ -31,6 +31,10 @@ ul li a {
     cursor: pointer;
 }
 
+.nav-child ul a:hover{
+    background-color: #d4e0ef;
+}
+
 .btn-1 {
     background-color: rgb(59, 59, 236);
     color: white;
