@@ -1,1 +1,0 @@
-Promt-1:(I send the png file of the project) this is a project for me to do and it is given  by my instructor . i completed almost fully .now for the something missing part they said to complete it relevant to this topic with the help of ai , now complete the part
